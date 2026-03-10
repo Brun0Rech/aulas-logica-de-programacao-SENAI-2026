@@ -1,0 +1,7 @@
+require('readline-sync') - utilizar a biblioteca
+node nomedoarquivo.js - executar o codigo
+console.table - exibe uma tabela no console com informaçoes do objeto
+
+atalhos 
+- ctrl k c - comentar linhas de codigo
+- ctrl k u -comentar/descomentar linhas de codigo
