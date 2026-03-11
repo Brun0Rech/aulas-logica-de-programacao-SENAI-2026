@@ -1,3 +1,4 @@
+npm install readline-sync
 require('readline-sync') - utilizar a biblioteca
 node nomedoarquivo.js - executar o codigo
 console.table - exibe uma tabela no console com informaçoes do objeto
