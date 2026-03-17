@@ -84,7 +84,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-let nome = "Bruno"
+//let nome = "Bruno"
 
 // let perguntas01 = LerTeclado.keyInYN("Você gosta de animais? ")  n
 // let perguntas02 = LerTeclado.keyInYN("Você gosta de praia? ")  y
@@ -159,20 +159,69 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-let nomeUsuario01 = LerTeclado.question("Nome de Usuario:")
-let idadeUsuario01 = LerTeclado.question("Digite sua idade:")
-let cidadeUsuario = LerTeclado.question("Sua Cidade:")
-let ruaUsuario = LerTeclado.question("Nome da rua:")
-let casaUsuario = LerTeclado.question("Numero da sua casa:")
+//usuario 1
+// let n_user1 = LerTeclado.question("Nome de Usuario:")
+// let i_user1 = LerTeclado.questionInt("Digite sua idade:")
+// let city_user1 = LerTeclado.question("Sua Cidade:")
+// let r_user1 = LerTeclado.question("Nome da rua:")
+// let c_user1 = LerTeclado.questionInt("Numero da sua casa:")
 
-let endereco = {
-    cidade: cidadeUsuario,
-    rua: ruaUsuario,
-    numerocasa: casaUsuario
-}
+// let user1 = {
+//     nome: n_user1,
+//     idade: i_user1,
+//     endereco:
+//     {
+//         cidade: city_user1,
+//         rua: r_user1,
+//         casa:c_user1
+//     }
+// }
 
+// //usuario 2
+// let n_user2 = LerTeclado.question("Nome de Usuario:")
+// let i_user2 = LerTeclado.questionInt("Digite sua idade:")
+// let city_user2 = LerTeclado.question("Sua Cidade:")
+// let r_user2 = LerTeclado.question("Nome da rua:")
+// let c_user2 = LerTeclado.questionInt("Numero da sua casa:")
 
-let ListaUsuario = [usuario01, usuario02, usuario03]
+// let user2 = {
+//     nome: n_user2,
+//     idade: i_user2,
+//     endereco:
+//     {
+//         cidade: city_user2,
+//         rua: r_user2,
+//         casa:c_user2
+//     }
+// }
+
+// //usuario 3
+// let n_user3 = LerTeclado.question("Nome de Usuario:")
+// let i_user3 = LerTeclado.questionInt("Digite sua idade:")
+// let city_user3 = LerTeclado.question("Sua Cidade:")
+// let r_user3 = LerTeclado.question("Nome da rua:")
+// let c_user3 = LerTeclado.questionInt("Numero da sua casa:")
+
+// let user3 = {
+//     nome: n_user3,
+//     idade: i_user3,
+//     endereco:
+//     {
+//         cidade: city_user3,
+//         rua: r_user3,
+//         casa:c_user3
+// }
+// }
+
+// let lista_user = [user1, user2, user3]
+
+// console.table(lista_user)
+
+// console.log(user2.nome, user2.idade)
+
+// console.table(user3.endereco)
+
+// console.log(user1.nome, user1.endereco.rua)
 
 
 
@@ -193,6 +242,50 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+// let aluno01 = LerTeclado.question("Nome do aluno:")
+//     let n01_aluno01 = LerTeclado.question(`Nota 1 do aluno ${aluno01}: `)
+//     let n02_aluno01 = LerTeclado.question(`Nota 2 do aluno ${aluno01}: `)
+//     let n03_aluno01 = LerTeclado.question(`Nota 3 do aluno ${aluno01}: `)
+
+// let aluno02 = LerTeclado.question("Nome do aluno:")
+//     let n01_aluno02 = LerTeclado.question(`Nota 1 do aluno ${aluno02}: `)
+//     let n02_aluno02 = LerTeclado.question(`Nota 2 do aluno ${aluno02}: `)
+//     let n03_aluno02 = LerTeclado.question(`Nota 3 do aluno ${aluno02}: `)
+
+// let aluno03 = LerTeclado.question("Nome do aluno:")
+//     let n01_aluno03 = LerTeclado.question(`Nota 1 do aluno ${aluno03}: `)
+//     let n02_aluno03 = LerTeclado.question(`Nota 2 do aluno ${aluno03}: `)
+//     let n03_aluno03 = LerTeclado.question(`Nota 3 do aluno ${aluno03}: `)
+
+
+// let dev1 = {
+//     nome: aluno01,
+//     nota1: n01_aluno01,
+//     nota2: n02_aluno01,
+//     nota3: n03_aluno01
+// }
+
+// let dev2 = {
+//     nome: aluno02,
+//     nota1: n01_aluno02,
+//     nota2: n02_aluno02,
+//     nota3: n03_aluno02
+// }
+
+// let dev3 = {
+//     nome: aluno03,
+//     nota1: n01_aluno03,
+//     nota2: n02_aluno03,
+//     nota3: n03_aluno03
+// }
+
+// let turma = [dev1, dev2, dev3]
+
+// console.table(turma)
+
+// console.log(dev2.nome, dev2.nota1)
+// console.log(dev3.nome, dev3.nota2)
+// console.log(dev1.nome, dev1.nota3)
 
 console.log("_______________________________");
 
@@ -214,6 +307,21 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+// let n_produto = LerTeclado.question("nome do seu produto: ")
+// let c_produto = LerTeclado.question("categoria do seu produto: ")
+// let q_estoque = LerTeclado.question("quantidade em estoque: ")
+// let disponibilidade = LerTeclado.keyInYN("esta a venda? ")
+
+// let produto = {
+//     nome: n_produto,
+//     categoria:c_produto,
+//     quantidade_em_estoque:q_estoque,
+//     disponivel: disponibilidade
+// }
+
+// console.table(produto)
+
+// console.log(`Produto: ${produto.nome} | Categoria:  ${produto.categoria} | Estoque:  ${produto.quantidade_em_estoque} un, estado de disponibilidade:  ${produto.disponivel}.`)
 
 console.log("_______________________________");
 
@@ -229,3 +337,42 @@ console.log("_______________________________");
 // c) Exiba a lista com console.table().
 // d) Exiba somente o nome e preço do 2 medicamento.
 // e) Exiba somente o nome e se está em estoque o 1 medicamento.
+
+//medicamento 1
+let n_medicamento1 = LerTeclado.question("nome do medicamento: ")
+let p_medicamento1 = LerTeclado.question("preco do medicamento: ")
+let em_estoque1 = LerTeclado.keyInYN("tem em estoque? ")
+
+//medicamento 2
+let n_medicamento2 = LerTeclado.question("nome do medicamento: ")
+let p_medicamento2 = LerTeclado.question("preco do medicamento: ")
+let em_estoque2 = LerTeclado.keyInYN("tem em estoque? ")
+
+let medicamento1 = {
+    nome: n_medicamento1,
+    preco: p_medicamento1,
+    estoque: em_estoque1
+}
+
+let medicamento2 = {
+    nome: n_medicamento2,
+    preco: p_medicamento2,
+    estoque: em_estoque2
+}
+
+let estoqueFarmacia = []
+
+estoqueFarmacia.push(medicamento1)
+estoqueFarmacia.push(medicamento2)
+
+console.table(estoqueFarmacia)
+
+console.log(medicamento2.nome, medicamento2.preco )
+console.log(`o medicamento ${medicamento1.nome} ${em_estoque1 ? 'esta em estoque' : 'nao esta em estoque'} `)
+
+
+
+
+
+
+
