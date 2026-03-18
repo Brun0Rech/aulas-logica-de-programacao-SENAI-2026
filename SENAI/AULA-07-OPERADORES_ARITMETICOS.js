@@ -12,6 +12,7 @@
 //       não serão solicitados novamente.
 // ============================================================
 
+let lerTeclado = require('readline-sync')
 
 // ------------------------------------------------------------
 // EXERCÍCIO 1 – Operações básicas
