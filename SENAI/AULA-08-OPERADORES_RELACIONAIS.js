@@ -257,21 +257,26 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-    let pessoa01 = lerTeclado.question("digite um nome: ")
-    let idadePessoa1 = lerTeclado.questionFLoat(`digite a idade de ${pessoa01}: `)
+    // let pessoa01 = lerTeclado.question("digite um nome: ")
+    // let idadePessoa1 = lerTeclado.questionFloat(`digite a idade de ${pessoa01}: `)
 
-    let pessoa02 = lerTeclado.question("digite um nome: ")
-    let idadePessoa2 = lerTeclado.questionFLoat(`digite a idade de ${pessoa02}: `)
+    // let pessoa02 = lerTeclado.question("digite um nome: ")
+    // let idadePessoa2 = lerTeclado.questionFloat(`digite a idade de ${pessoa02}: `)
 
-    let comparacao01 = idadePessoa1 > idadePessoa2
+    // let comparacao01 = idadePessoa1 > idadePessoa2
             
-    let comparacao02 = idadePessoa1 === idadePessoa2
+    // let comparacao02 = idadePessoa1 === idadePessoa2
                 
-    let comparacao03 =  idadePessoa1 >= 18
+    // let comparacao03 =  idadePessoa1 >= 18
         
-    let comparacao04 = idadePessoa2 >= 18
+    // let comparacao04 = idadePessoa2 >= 18
 
-    
+    // console.log(`Idade de ${pessoa01} é ${idadePessoa1}. Maior de 18 anos?:${comparacao03 ? "sim" : "nao"}`)
+    // console.log(`Idade de ${pessoa02} é ${idadePessoa2}. Maior de 18 anos?:${comparacao04 ? "sim" : "nao"}`)
+
+
+    // console.log(`${pessoa01} é mais velho(a) que ${pessoa02}? ${comparacao01 ? "sim" : "nao"}`)
+
 
 console.log("_______________________________");
 
@@ -286,5 +291,47 @@ console.log("_______________________________");
 //    Exemplo: `Aluno com primeira maior nota: ${nota1aluno1 > nota1aluno2 ? nomeAluno1 : nomeAluno2}`
 // → Seu código aqui:
 
+    // let aluno01 = lerTeclado.question("digite o nome do aluno: ")
+    // let n1_aluno01 = lerTeclado.question(`digite a nota 01 do ${aluno01}: `)
+    // let n2_aluno01 = lerTeclado.question(`digite a nota 02 do ${aluno01}: `)
+    // let n3_aluno01 = lerTeclado.question(`digite a nota 03 do ${aluno01}: `)
+
+    // let aluno02 = lerTeclado.question("digite o nome do aluno: ")
+    // let n1_aluno02 = lerTeclado.question(`digite a nota 01 do ${aluno02}: `)
+    // let n2_aluno02 = lerTeclado.question(`digite a nota 02 do ${aluno02}: `)
+    // let n3_aluno02 = lerTeclado.question(`digite a nota 03 do ${aluno02}: `)
+
+    // let notas_aluno01 = [n1_aluno01, n2_aluno01, n3_aluno01]
+
+    // let notas_aluno02 = [n1_aluno02, n2_aluno02, n3_aluno02]
+
+    // let media_aluno01 = notas_aluno01.reduce((total, notas) => total + notas, 0) / notas_aluno01.length
+
+    // let media_aluno02 = notas_aluno02.reduce((total, notas) => total + notas, 0) / notas_aluno01.length
+
+    // let maior_nota_aluno01 = Math.max(notas_aluno01[0],notas_aluno01[1],notas_aluno01[2])
+
+    // let maior_nota_aluno02 = Math.max(notas_aluno02[0],notas_aluno02[1],notas_aluno02[2])
+
+    // let alunos = [
+    //     aluno1= {
+    //     nome: aluno01,
+    //     nota1: n1_aluno01,
+    //     nota2: n2_aluno01,
+    //     nota3: n3_aluno01,
+    //     media: media_aluno01
+    //     },
+    //     aluno2= {
+    //         nome: aluno02,
+    //         nota1: n1_aluno02,
+    //         nota2: n2_aluno02,
+    //         nota3: n3_aluno02,
+    //         media: media_aluno02
+    //     }
+    // ]
+
+    // console.log(`Quem teve a maior media?${media_aluno01 > media_aluno02 ? `${aluno01}` : `${aluno02}`}`)
+
+    // console.log(`Quem teve a maior nota?${maior_nota_aluno01 > maior_nota_aluno02 ? `${aluno01}` : `${aluno02}`}`)
 
 console.log("_______________________________");
