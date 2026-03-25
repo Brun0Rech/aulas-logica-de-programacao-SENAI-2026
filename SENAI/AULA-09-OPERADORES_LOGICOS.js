@@ -12,7 +12,7 @@
 //       não serão solicitados novamente.
 // ============================================================
 
-let lerTeclado = require('readline-sync')
+let readline = require('readline-sync')
 
 // ------------------------------------------------------------
 // EXERCÍCIO 1 – Tabela verdade do &&
@@ -112,8 +112,8 @@ console.log("_______________________________");
 // → Seu código aqui:
 
     // let user ={
-    //     peso: lerTeclado.questionFloat("digite seu peso: "),
-    //     idade:lerTeclado.questionFloat("digite sua idade: "),
+    //     peso: readline.questionFloat("digite seu peso: "),
+    //     idade:readline.questionFloat("digite sua idade: "),
     //     imc: (user.peso) / (user.altura) * 2
     //   }
 
@@ -211,9 +211,9 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-    // let estudante = lerTeclado.keyInYN("voce e bolsista? ")
+    // let estudante = readline.keyInYN("voce e bolsista? ")
 
-    // let valor_curso = lerTeclado.keyInYN("voce e paga mais de R$1000,00 reais pelo curso? ")
+    // let valor_curso = readline.keyInYN("voce e paga mais de R$1000,00 reais pelo curso? ")
 
     // let mensagem = (valor_curso && estudante ? "desconto aplicado!" : "desconto nao aplicado.")
 
@@ -240,9 +240,9 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-    // let idade = lerTeclado.questionInt("digite sua idade: ")
-    // let ingresso = lerTeclado.keyInYN("possui ingresso? ")
-    // let associado = lerTeclado.keyInYN("é associado ao clube? ")
+    // let idade = readline.questionInt("digite sua idade: ")
+    // let ingresso = readline.keyInYN("possui ingresso? ")
+    // let associado = readline.keyInYN("é associado ao clube? ")
 
     // let user = {
     //     idade: idade,
@@ -278,6 +278,33 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let nome_produto = readline.question("nome do pruduto: ")
+    // let estoque = readline.questionFloat("quantas unidades em estoque? ")
+    // let sistema;
+
+    // // testando do e while
+
+    // do{
+    //     sistema = readline.question("o produto esta ativo no sistema? ").toLowerCase()
+    // } while ( sistema !== 'sim' && sistema !== 'nao' && sistema !== 'não')
+
+    // let produto = {
+    //     nome: nome_produto,
+    //     em_estoque: estoque,
+    //     disponivel_sistema: sistema
+    // }
+
+    // let em_estoque = estoque > 0 
+    // let disponivel_sistema = sistema === 'sim'
+    // let indisponivel_sistema = (!disponivel_sistema) || (!em_estoque)
+
+    // if(!indisponivel_sistema){
+    //     console.log("produto em estoque e ativo no sistema")
+    // } else {
+    //     console.log("produto indisponivel")
+    // }
+
+    // console.log(`nome do produto:${produto.nome}, quantidade em estoque:${produto.em_estoque}, situacao de disponiblidade no sistema:${disponivel_sistema ? 'ativo' : 'inativo'}`)
 
 console.log("_______________________________");
 
@@ -298,6 +325,23 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let adm = readline.keyInYN("voce e adm? ")
+    // let logado = readline.keyInYN("voce esta logado? ")
+    // let conta_ativa = readline.keyInYN("sua conta esta ativa? ")
+
+    // let user = {
+    //     admin: adm,
+    //     login: logado,
+    //     situacao_conta: conta_ativa
+    // }
+
+    // let acesso_usuario = user.situacao_conta && user.login
+    // let acesso_admin = acesso_usuario && user.admin
+    // let acesso_negado = (!user.conta_ativa) && (!user.login)
+
+    // console.log(`acesso usuario: ${acesso_usuario ? 'permitido' : 'negado'}`)
+    // console.log(`acesso admnistrador: ${acesso_admin ? 'permitido' : 'negado'}`)
+    // console.log(`${acesso_negado ? 'SOME DAQUI' : 'acesso concedido'}`)
 
 console.log("_______________________________");
 
@@ -321,5 +365,18 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let credenciais = {
+    // usuario:"bruno",
+    // senha:09122009
+    // }
+
+    // let usuario = readline.question("digite seu usuario: ")
+    // let senha = readline.questionInt("digite sua senha: ")
+
+    // if (credenciais.usuario === usuario && credenciais.senha === senha){
+    //     console.log("Login realizado com sucesso!")
+    // } else {
+    //     console.log("Usuário ou senha incorretos.")
+    // }
 
 console.log("_______________________________");
