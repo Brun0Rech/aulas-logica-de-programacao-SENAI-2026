@@ -112,6 +112,25 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+let pontos = 100
+
+pontos += 50
+
+console.log(`Pontos após somar 50: ${pontos}`)
+
+pontos -= 30
+
+console.log(`Pontos após subtrair 30: ${pontos}`)
+
+pontos *= 2
+
+console.log(`Pontos após multiplicar: ${pontos}`)
+
+pontos /= 4
+
+console.log(pontos)
+
+console.log(`Pontos após somar 30: ${pontos}`)
 
 console.log("_______________________________");
 
@@ -128,6 +147,35 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+let vidas = 3
+
+console.log(vidas)
+
+vidas++
+
+console.log(vidas)
+
+vidas++
+
+console.log(vidas)
+
+vidas--
+
+console.log(vidas)
+
+let nivel = 1
+
+++nivel
+
+console.log(nivel)
+
+++nivel
+
+console.log(nivel)
+
+++nivel
+
+console.log(nivel)
 
 console.log("_______________________________");
 
@@ -145,6 +193,13 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+let notas = 7.3
+
+console.log(Math.round(notas))
+
+console.log(Math.floor(notas))
+
+console.log(Math.ceil(notas))
 
 console.log("_______________________________");
 
@@ -160,6 +215,14 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+let nota_1 = lerTeclado.questionFloat("primeira nota: ")
+let nota_2 = lerTeclado.questionFloat("segundo nota: ")
+let nota_3 = lerTeclado.questionFloat("terceiro nota: ")
+
+let media = (nota_1 + nota_2 + nota_3) / 3
+
+console.log(`nota 1: $${nota_1}, nota 2: ${nota_2}, nota 3: ${nota_3}`)
+console.log(`media: ${media.toFixed(2)}`)
 
 console.log("_______________________________");
 
@@ -178,6 +241,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+FAZER
 
 console.log("_______________________________");
 
@@ -194,6 +258,7 @@ let idades = [15, 22, 30, 18, 25];
 
 // → Seu código aqui:
 
+FAZER
 
 console.log("_______________________________");
 
@@ -223,3 +288,5 @@ let turma = {
 // e) Exiba a nota mais alta e a mais baixa da turma
 
 // → Seu código aqui:
+
+FAZER
