@@ -172,9 +172,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-function preco_desconto(){
-    
-}
+FAZER
 
 console.log("_______________________________");
 
@@ -191,6 +189,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+FAZER
 
 console.log("_______________________________");
 
@@ -206,6 +205,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+FAZER
 
 console.log("_______________________________");
 
