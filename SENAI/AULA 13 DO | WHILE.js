@@ -12,7 +12,15 @@
 
 // → Seu código aqui:
 
+let n = 1
 
+while(n < 8){
+    console.log(n)
+    if(n = 7){
+        console.log("FIM DA CONTAGEM!")
+    }
+    n++
+}
 
 console.log("_______________________________");
 
@@ -26,7 +34,15 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+let regressiva = 10
 
+while(regressiva > 0){
+    console.log(regressiva)
+    if(regressiva = 1){
+        console.log("LANCAMENTO ON!")
+    }
+    regressiva--
+}
 
 console.log("_______________________________");
 
@@ -40,6 +56,16 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+let numero = Number(readline.question("digite um numero entre 1 e 5:"))
+
+while(numero > 5 || numero < 1 ){
+    console.log("VALOR INVALIDO, TENTE NOVAMENTE.")
+    numero = Number(readline.question("digite um numero entre 1 e 5:"))
+}
+
+if(numero < 6 && numero > 0){
+    console.log(`voce escolheu o numero: ${numero}`)
+}
 
 console.log("_______________________________");
 
@@ -54,6 +80,26 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+let soma = 0
+
+let numeros_digitados = []
+
+let number = Number(readline.question("digite um numero: "))
+
+numeros_digitados.push(number)
+
+while(number != 0){
+    number = Number(readline.question("digite um numero: "))
+    numeros_digitados.push(number)
+    soma += number
+}
+
+if(number === 0){
+    console.log("CODIGO ENCERRADO")
+    console.log(`numeros digitados: ${numeros_digitados}`)
+    console.log(`total numeros digitados: ${numeros_digitados.length}`)
+    console.log(`soma dos numeros: ${soma}`)
+}
 
 console.log("_______________________________");
 
@@ -67,7 +113,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-
+FAZER
 
 console.log("_______________________________");
 
@@ -84,7 +130,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-
+FAZER
 
 console.log("_______________________________");
 
@@ -104,7 +150,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-
+FAZER
 
 console.log("_______________________________");
 
@@ -118,6 +164,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+FAZER
 
 console.log("_______________________________");
 
@@ -135,6 +182,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+FAZER
 
 console.log("_______________________________");
 
@@ -153,6 +201,6 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-
+FAZER
 
 console.log("_______________________________");
