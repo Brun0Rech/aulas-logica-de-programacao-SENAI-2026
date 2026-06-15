@@ -338,37 +338,37 @@ console.log("_______________________________");
 // d) Exiba somente o nome e preço do 2 medicamento.
 // e) Exiba somente o nome e se está em estoque o 1 medicamento.
 
-//medicamento 1
-let n_medicamento1 = LerTeclado.question("nome do medicamento: ")
-let p_medicamento1 = LerTeclado.question("preco do medicamento: ")
-let em_estoque1 = LerTeclado.keyInYN("tem em estoque? ")
+    //medicamento 1
+    let n_medicamento1 = LerTeclado.question("nome do medicamento: ")
+    let p_medicamento1 = LerTeclado.question("preco do medicamento: ")
+    let em_estoque1 = LerTeclado.keyInYN("tem em estoque? ")
 
-//medicamento 2
-let n_medicamento2 = LerTeclado.question("nome do medicamento: ")
-let p_medicamento2 = LerTeclado.question("preco do medicamento: ")
-let em_estoque2 = LerTeclado.keyInYN("tem em estoque? ")
+    //medicamento 2
+    let n_medicamento2 = LerTeclado.question("nome do medicamento: ")
+    let p_medicamento2 = LerTeclado.question("preco do medicamento: ")
+    let em_estoque2 = LerTeclado.keyInYN("tem em estoque? ")
 
-let medicamento1 = {
-    nome: n_medicamento1,
-    preco: p_medicamento1,
-    estoque: em_estoque1
-}
+    let medicamento1 = {
+        nome: n_medicamento1,
+        preco: p_medicamento1,
+        estoque: em_estoque1
+    }
 
-let medicamento2 = {
-    nome: n_medicamento2,
-    preco: p_medicamento2,
-    estoque: em_estoque2
-}
+    let medicamento2 = {
+        nome: n_medicamento2,
+        preco: p_medicamento2,
+        estoque: em_estoque2
+    }
 
-let estoqueFarmacia = []
+    let estoqueFarmacia = []
 
-estoqueFarmacia.push(medicamento1)
-estoqueFarmacia.push(medicamento2)
+    estoqueFarmacia.push(medicamento1)
+    estoqueFarmacia.push(medicamento2)
 
-console.table(estoqueFarmacia)
+    console.table(estoqueFarmacia)
 
-console.log(medicamento2.nome, medicamento2.preco )
-console.log(`o medicamento ${medicamento1.nome} ${em_estoque1 ? 'esta em estoque' : 'nao esta em estoque'} `)
+    console.log(medicamento2.nome, medicamento2.preco )
+    console.log(`o medicamento ${medicamento1.nome} ${em_estoque1 ? 'esta em estoque' : 'nao esta em estoque'} `)
 
 
 

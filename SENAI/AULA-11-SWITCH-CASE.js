@@ -4,6 +4,7 @@
 // Instruções: resolva cada exercício no espaço indicado.
 // ============================================================
 
+    let readline = require('readline-sync')
 
 // ------------------------------------------------------------
 // EXERCÍCIO 1 – Switch simples com número
@@ -17,6 +18,46 @@
 
 // → Seu código aqui:
 
+    // let planeta = 3
+
+    // switch(planeta){
+    //     case 1 :
+    //         console.log('mercurio')
+    //         break
+
+    //     case 2 : 
+    //         console.log('venus')
+    //         break
+
+    //     case 3 : 
+    //         console.log('terra')
+    //         break
+
+    //     case 4 : 
+    //         console.log('marte')
+    //         break
+
+    //     case 5 : 
+    //         console.log('jupiter')
+    //         break
+
+    //     case 6 : 
+    //         console.log('saturno')
+    //         break
+
+    //     case 7 : 
+    //         console.log('urano')
+    //         break
+
+    //     case 8 : 
+    //         console.log('netuno')
+    //         break
+        
+    //     default:
+    //         console.log('planeta nao encontrado')
+    //         break
+
+    // }
 
 console.log("_______________________________");
 
@@ -34,6 +75,30 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let direcao = 'norte'
+
+    // switch(direcao){
+    //     case 'norte' :
+    //         console.log('Seguindo para o Norte')
+    //         break
+
+    //     case 'sul' : 
+    //         console.log('Seguindo para o Sul')
+    //         break
+
+    //     case 'oeste' : 
+    //         console.log('Seguindo para o Oeste')
+    //         break
+
+    //     case 'leste' : 
+    //         console.log('Seguindo para o Leste')
+    //         break
+        
+    //     default:
+    //         console.log('direcao desconhecida')
+    //         break
+
+    // }
 
 console.log("_______________________________");
 
@@ -50,6 +115,24 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let veiculo = 'moto'
+
+    // switch(veiculo){
+    //     case 'bicicleta' :
+    //     case 'moto'      :
+    //     case 'carro'     :
+    //         console.log('veiculo leve')
+    //         break
+        
+    //     case 'caminhao'  :
+    //     case 'onibus'    : 
+    //         console.log('veiculo pesado')
+    //             break
+        
+    //     default:
+    //         console.log('veiculo desconhecido')
+    //         break
+    // }
 
 console.log("_______________________________");
 
@@ -68,6 +151,29 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // console.log('1 – Manhã | 2 – Tarde | 3 – Noite')
+
+    // let turno = Number(
+    //     readline.question('escolha um turno: ')
+    // )
+
+    // switch(turno){
+    //     case 1 :
+    //         console.log('Bom dia! Turno da manha.')
+    //         break
+
+    //     case 2 : 
+    //         console.log('Boa tarde! Turno da tarde.')
+    //         break
+
+    //     case 3: 
+    //         console.log('Boa noite! Turno da noite.')
+    //         break
+
+    //     default:
+    //         console.log('opcao invalida!')
+    //         break
+    // }
 
 console.log("_______________________________");
 
@@ -86,6 +192,32 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let estacao = String(
+    //     readline.question('qual e a sua estacao do ano favorita? ')
+    // ).toLowerCase()
+
+    // switch(estacao){
+    //     case 'verao' :
+    //         console.log('Dias quentes e ferias!')
+    //         break
+
+    //     case 'inverno'  : 
+    //         console.log('Frio, cobertores e chocolate quente.')
+    //         break
+
+    //     case 'outono' : 
+    //         console.log('Folhas caindo e temperaturas amenas.')
+    //         break
+
+    //     case 'primavera' : 
+    //         console.log('Flores, calor e renovacao.')
+    //         break
+
+    //     default:
+    //         console.log('Estacao nao reconhecida.')
+    //         break
+    // }
+
 
 console.log("_______________________________");
 
@@ -101,6 +233,28 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let number = Number(
+    //     readline.question('escolha um numero de 1 a 7: ')
+    // )
+
+    // switch(number){
+    //     case 1 :
+    //     case 2 :
+    //     case 3 :
+    //     case 4 :
+    //     case 5 :
+    //         console.log('dia util')
+    //         break
+        
+    //     case 6 :
+    //     case 7 : 
+    //         console.log('final de semana')
+    //             break
+        
+    //     default:
+    //         console.log('numero invalido')
+    //         break
+    // }
 
 console.log("_______________________________");
 
@@ -121,6 +275,52 @@ console.log("_______________________________");
 // c) Exiba o objeto com console.table().
 
 // → Seu código aqui:
+
+    // let produto = {}
+
+    // produto.nome = String(
+    //     readline.question(' nome do produto: ')
+    // )
+    
+    // produto.categoria = Number(
+    //     readline.question(' 1  Eletronico | 2  Vestuario | 3  Alimento | 4  Livro \n escolha uma categoria: ')
+    // )
+
+    // produto.preco = Number(
+    //     readline.question(' preco do produto: ')
+    // )
+
+    // switch(produto.categoria){
+    //     case 1:
+    //         produto.garantia = '12 meses'
+    //         produto.categoria = 'Eletronico'
+    //         break
+
+    //     case 2:
+    //         produto.garantia = 'Troca em 30 dias'
+    //         produto.categoria = 'Vestuario'
+    //         break
+    //     case 3:
+
+    //         produto.garantia = 'Ver validade'
+    //         produto.categoria = 'Alimento'
+    //         break
+
+    //     case 4:
+    //         produto.garantia = 'Sem garantia'
+    //         produto.categoria = 'Livro'
+    //         break
+
+    //     default:
+
+    //         produto.categoria = 'categoria invalida'
+    //         produto.garantia = 'sem garantia'
+
+    //         console.log(produto.categoria)
+    //         break
+    // }
+
+    // console.table(produto)
 
 
 console.log("_______________________________");
@@ -143,6 +343,53 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let aluno = {}
+
+    // aluno.nome = String(
+    //     readline.question('nome do aluno: ')
+    // )
+
+    // aluno.nota = Number(
+    //     readline.question(`nota de ${aluno.nome}: `)
+    // )
+
+    // switch(aluno.nota){
+    //     case 10:
+    //     case 9:
+    //         aluno.conceito = 'A'
+    //         aluno.mensagem = 'Excelente!'
+    //         break
+
+    //     case 8:
+    //     case 7:
+    //         aluno.conceito = 'B'
+    //         aluno.mensagem = 'Muito Bom!'
+    //         break
+        
+    //     case 6:
+    //     case 5:
+    //         aluno.conceito = 'C'
+    //         aluno.mensagem = 'suficiente.'
+    //         break
+        
+    //     case 4:
+    //     case 3:
+    //         aluno.conceito = 'D'
+    //         aluno.mensagem = 'em recuperacao'
+    //         break
+
+    //     case 2:
+    //     case 1:
+    //     case 0:
+    //         aluno.conceito = 'F'
+    //         aluno.mensagem = 'reprovado.'
+    //         break
+
+    //     default:
+    //         console.log('nota invalida')
+    // }
+
+    // console.table(aluno)
 
 console.log("_______________________________");
 
@@ -162,6 +409,62 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
+    // let number01 = Number(
+    //     readline.question('digite um numero: ')
+    // )
+
+    //  let number02 = Number(
+    //     readline.question('digite outro numero: ')
+    // )
+    
+    // console.log('1 – Soma | 2 – Subtração | 3 – Multiplicação | 4 – Divisão | 5 – Resto')
+
+    // let operacao = Number(
+    //     readline.question('escolha uma operacao: ')
+    // )
+
+    // let resultado = 0
+    // let simbolo = ''
+
+    // switch(operacao){
+    //     case 1:
+    //         resultado = number01 + number02
+    //         simbolo = '+'
+    //         console.log(`\n${number01} ${simbolo} ${number02} = ${resultado}`)
+    //         break
+
+    //     case 2:
+    //         resultado = number01 - number02
+    //         simbolo = '-'
+    //         console.log(`\n${number01} ${simbolo} ${number02} = ${resultado}`)
+    //         break
+
+    //     case 3:
+    //         resultado = number01 * number02
+    //         simbolo = '×'
+    //         console.log(`\n${number01} ${simbolo} ${number02} = ${resultado}`)
+    //         break
+
+    //     case 4:
+    //         if(number02 == 0){
+    //             console.log('\noperacao nao permitida (divisao por 0)')
+    //             break
+    //         }
+    //         resultado = number01 / number02
+    //         simbolo = '÷'
+    //         console.log(`\n${number01} ${simbolo} ${number02} = ${resultado.toFixed(2)}`)
+    //         break
+
+    //     case 5:
+    //         resultado = number01 % number02
+    //         simbolo = '%'
+    //         console.log(`\n${number01} ${simbolo} ${number02} = ${resultado}`)
+    //         break
+
+    //     default:
+    //         console.log('\noperacao invalida')
+    //         break
+    // }
 
 console.log("_______________________________");
 
@@ -185,5 +488,92 @@ console.log("_______________________________");
 //    - default → exiba: "Opção inválida."
 
 // → Seu código aqui:
+
+    // let loja = {
+    //     nome: 'TechShop',
+    //     produtos: [
+    //         { produto: 'mouse', preco: 70 },
+    //         { produto: 'teclado', preco: 120 },
+    //         { produto: 'monitor', preco: 750 }
+    //     ]
+    // };
+
+    // let cliente = {
+    //     carrinho: [],
+    //     saldo: 0
+    // };
+
+    // function menu() {
+    //     console.log('=== TECHSHOP ===\n')
+    //     console.log('1 – Ver produtos | 2 – Comprar | 3 – Ver carrinho | 4 – Sair')
+    //     return Number(
+    //         readline.question('O que voce deseja? ')
+    //     );
+    // }
+
+    // let opcao = 0
+
+    // while (opcao !== 4) {
+
+    //     opcao = menu()
+
+    //     switch (opcao) {
+
+    //         case 1:
+    //             console.table(loja.produtos)
+    //             break;
+
+    //         case 2:
+
+    //             let produtoDigitado = String(
+    //                 readline.question('Qual produto deseja comprar? ').toLowerCase()
+    //             )
+
+    //             let encontrou = false
+
+    //             for (let produto of loja.produtos) {
+
+    //                 if (produto.produto.toLowerCase() === produtoDigitado) {
+
+    //                     cliente.carrinho.push(produto)
+    //                     cliente.saldo += produto.preco
+
+    //                     console.log('Produto adicionado ao carrinho!')
+    //                     encontrou = true
+
+    //                     break
+    //                 }
+    //             }
+
+    //             if(!encontrou){
+    //                     console.log('produto nao encontrado')
+    //                     break
+    //             }
+
+                
+
+    //         case 3:
+
+    //             console.log('=== CARRINHO ===')
+
+    //             if (cliente.carrinho.length === 0) {
+    //                 console.log('Carrinho vazio.')
+    //             } else {
+    //                 console.table(cliente.carrinho)
+    //                 console.log(`Total: R$ ${cliente.saldo}`)
+    //             }
+
+    //             break;
+
+    //         case 4:
+    //             console.log('Obrigado por visitar a TechShop!')
+    //             break
+
+    //         default:
+    //             console.log('Opcao invalida!')
+    //     }
+    // }
+
+    
 
 console.log("_______________________________");

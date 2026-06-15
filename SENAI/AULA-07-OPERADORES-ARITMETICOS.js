@@ -29,24 +29,24 @@ let lerTeclado = require('readline-sync')
 
 // → Seu código aqui:
 
-// let number1 = 18
-// let number2 = 5
+  // let number1 = 18
+  // let number2 = 5
 
-// let subtracao = number1 - number2
+  // let subtracao = number1 - number2
 
-// let multiplicacao = number1 * number2
+  // let multiplicacao = number1 * number2
 
-// let divisao = number1 / number2
+  // let divisao = number1 / number2
 
-// let modulo = number1 % number2
+  // let modulo = number1 % number2
 
-// let potencia = number1 ** number2
+  // let potencia = number1 ** number2
 
-// console.log("subtracao:",subtracao)
-// console.log("multiplicacao:",multiplicacao)
-// console.log("divisao:",divisao.toFixed(2))
-// console.log("modulo:",modulo)
-// console.log("potencia:",potencia)
+  // console.log("subtracao:",subtracao)
+  // console.log("multiplicacao:",multiplicacao)
+  // console.log("divisao:",divisao.toFixed(2))
+  // console.log("modulo:",modulo)
+  // console.log("potencia:",potencia)
 
 // console.log("_______________________________");
 
@@ -62,13 +62,13 @@ let lerTeclado = require('readline-sync')
 
 // → Seu código aqui:
 
-// let largura = 8
-// let altura = 5
+  // let largura = 8
+  // let altura = 5
 
-// let area = largura * altura
-// let perimetro = (2 * largura) + (2 * altura)
+  // let area = largura * altura
+  // let perimetro = (2 * largura) + (2 * altura)
 
-// console.log(`Retângulo | Largura: ${largura} | Altura: ${altura} | Área: ${area} | Perímetro: ${perimetro}`)
+  // console.log(`Retângulo | Largura: ${largura} | Altura: ${altura} | Área: ${area} | Perímetro: ${perimetro}`)
 
 // console.log("_______________________________");
 
@@ -87,13 +87,13 @@ let lerTeclado = require('readline-sync')
 
 // → Seu código aqui:
 
-// let preco_original = 250
+  // let preco_original = 250
 
-// let percentual_desconto = 15
+  // let percentual_desconto = 15
 
-// let valor_desconto = preco_original * (percentual_desconto / 100)
+  // let valor_desconto = preco_original * (percentual_desconto / 100)
 
-// console.log(`Preço original: R$${ preco_original} | Desconto: ${percentual_desconto}%| Preço final: R$`, valor_desconto.toFixed(2))
+  // console.log(`Preço original: R$${ preco_original} | Desconto: ${percentual_desconto}%| Preço final: R$`, valor_desconto.toFixed(2))
 
 
 console.log("_______________________________");
@@ -112,27 +112,27 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-let pontos = 100
+  // let pontos = 100
 
-pontos += 50
+  // pontos += 50
 
-console.log(`Pontos após somar 50: ${pontos}`)
+  // console.log(`Pontos após somar 50: ${pontos}`)
 
-pontos -= 30
+  // pontos -= 30
 
-console.log(`Pontos após subtrair 30: ${pontos}`)
+  // console.log(`Pontos após subtrair 30: ${pontos}`)
 
-pontos *= 2
+  // pontos *= 2
 
-console.log(`Pontos após multiplicar: ${pontos}`)
+  // console.log(`Pontos após multiplicar: ${pontos}`)
 
-pontos /= 4
+  // pontos /= 4
 
-console.log(pontos)
+  // console.log(pontos)
 
-console.log(`Pontos após somar 30: ${pontos}`)
+  // console.log(`Pontos após somar 30: ${pontos}`)
 
-console.log("_______________________________");
+  // console.log("_______________________________");
 
 
 // ------------------------------------------------------------
@@ -147,35 +147,35 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-let vidas = 3
+  // let vidas = 3
 
-console.log(vidas)
+  // console.log(vidas)
 
-vidas++
+  // vidas++
 
-console.log(vidas)
+  // console.log(vidas)
 
-vidas++
+  // vidas++
 
-console.log(vidas)
+  // console.log(vidas)
 
-vidas--
+  // vidas--
 
-console.log(vidas)
+  // console.log(vidas)
 
-let nivel = 1
+  // let nivel = 1
 
-++nivel
+  // ++nivel
 
-console.log(nivel)
+  // console.log(nivel)
 
-++nivel
+  // ++nivel
 
-console.log(nivel)
+  // console.log(nivel)
 
-++nivel
+  // ++nivel
 
-console.log(nivel)
+  // console.log(nivel)
 
 console.log("_______________________________");
 
@@ -193,13 +193,13 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-let notas = 7.3
+// let notas = 7.3
 
-console.log(Math.round(notas))
+// console.log(Math.round(notas))
 
-console.log(Math.floor(notas))
+// console.log(Math.floor(notas))
 
-console.log(Math.ceil(notas))
+// console.log(Math.ceil(notas))
 
 console.log("_______________________________");
 
@@ -215,14 +215,14 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-let nota_1 = lerTeclado.questionFloat("primeira nota: ")
-let nota_2 = lerTeclado.questionFloat("segundo nota: ")
-let nota_3 = lerTeclado.questionFloat("terceiro nota: ")
+  // let nota_1 = lerTeclado.questionFloat("primeira nota: ")
+  // let nota_2 = lerTeclado.questionFloat("segundo nota: ")
+  // let nota_3 = lerTeclado.questionFloat("terceiro nota: ")
 
-let media = (nota_1 + nota_2 + nota_3) / 3
+  // let media = (nota_1 + nota_2 + nota_3) / 3
 
-console.log(`nota 1: $${nota_1}, nota 2: ${nota_2}, nota 3: ${nota_3}`)
-console.log(`media: ${media.toFixed(2)}`)
+  // console.log(`nota 1: $${nota_1}, nota 2: ${nota_2}, nota 3: ${nota_3}`)
+  // console.log(`media: ${media.toFixed(2)}`)
 
 console.log("_______________________________");
 
@@ -241,7 +241,20 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-FAZER
+  // let total = Number(lerTeclado.question("valor total a ser cobrado: "))
+  // let valor_entregue = Number(lerTeclado.question("informe o valor entregue pelo cliente: "))
+  // let troco = valor_entregue - total
+
+  // if(troco < 0){
+  //   console.log("venda nao autorizada!")
+  // }else{
+  //   console.log(`
+  //     total da compra: ${total}
+  //     valor recebido: ${valor_entregue}
+  //     troco: ${troco}
+  //   `)
+  // }
+
 
 console.log("_______________________________");
 
@@ -258,7 +271,27 @@ let idades = [15, 22, 30, 18, 25];
 
 // → Seu código aqui:
 
-FAZER
+  // let soma_precos = 0
+
+  // for(const preco of precos){
+  //     soma_precos += preco
+  // }
+
+  // console.log(`soma: ${soma_precos.toFixed(2)}`)
+
+  // let soma_notas = 0
+
+  // for(const nota of notas){
+  //     soma_notas += nota
+  // }
+
+  // let media = soma_notas / notas.length
+
+  // console.log(`media de notas: ${media}`)
+
+  // console.log(`maior idade: ${Math.max(...idades)}`)
+  // console.log(`menor idade: ${Math.min(...idades)}`)
+
 
 console.log("_______________________________");
 
@@ -267,20 +300,14 @@ console.log("_______________________________");
 // EXERCÍCIO 10 – Trabalhando com objetos
 // ------------------------------------------------------------
 // Dado o objeto turma:
-let turma = {
-  aluno1: {
-    nome: "João",
-    notas: []
-  },
-  aluno2: {
-    nome: "Maria",
-    notas: []
-  },
-  aluno3: {
-    nome: "Pedro",
-    notas: []
+  let turma = {
+    aluno1: { nome: "Joao", notas: []},
+
+    aluno2: {nome: "Maria", notas: []},
+
+    aluno3: {nome: "Pedro",notas: []}
   }
-}
+
 // a) Sem alterar o objeto (utilize somente push), peça para o usuário 3 notas para cada aluno, indicando a quem pertencerá cada nota
 // b) Calcule a média de notas de cada aluno e exiba no console, indicando a quem pertence cada média
 // c) Exiba a média geral da turma
@@ -289,4 +316,30 @@ let turma = {
 
 // → Seu código aqui:
 
-FAZER
+  let soma = 0
+  
+  for(const aluno in turma){
+    for(let i = 1; i <= 3; i++){
+      let nota = Number(
+        lerTeclado.question(
+          `informe a nota ${i} de ${turma[aluno].nome}:`
+        )
+      )
+
+      turma[aluno].notas.push(nota)
+    
+      if(i === 3){
+        for(const nota of turma[aluno].notas){
+          soma += nota
+        }
+
+        let media = soma / turma[aluno].notas.length
+        console.log(`maior nota de ${turma[aluno].nome}: ${Math.max(...turma[aluno].notas)}`)
+        console.log(`menor nota de ${turma[aluno].nome}: ${Math.min(...turma[aluno].notas)}`)
+        console.log(`media final de ${turma[aluno].nome}: ${media.toFixed(1)}\n`)
+
+        soma = 0
+
+      }
+    }
+  }

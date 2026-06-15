@@ -306,79 +306,79 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 
-let encerrar = 1
+    let encerrar = 1
 
-function menu(){
-    console.log(`
-        ------ calculadora basica ------
+    function menu(){
+        console.log(`
+            ------ calculadora basica ------
 
-        escolha uma operacao:
-        
-        1- somar
-        2- subtrair
-        3- multiplicar
-        4- dividir                    `)
-}
-
-function somar(){
-    let num_soma1 = Number(readline.question("digite um numero: "))
-    let num_soma2 = Number(readline.question("digite outro numero que deseja somar: "))
-    let resultado = num_soma1 + num_soma2
-    console.log(`resultado: ${resultado}`)
-}
-
-function subtrair(){
-    let num_subtracao1 = Number(readline.question("digite um numero: "))
-    let num_subtracao2 = Number(readline.question("digite outro numero que deseja subtrair: "))
-    let resultado = num_subtracao1 - num_subtracao2
-    console.log(`resultado: ${resultado}`)
-}
-
-function multiplicação(){
-    let num_multiplicacao1 = Number(readline.question("digite um numero: "))
-    let num_multiplicacao2 = Number(readline.question("digite outro numero que deseja multiplicar: "))
-    let resultado = num_multiplicacao1 * num_multiplicacao2
-    console.log(`resultado: ${resultado}`)
-}
-
-function dividir(){
-    let num_divisao1 = Number(readline.question("digite um numero: "))
-    let num_divisao2 = Number(readline.question("digite outro numero que deseja dividir: "))
-    let dividir = num_divisao1 / num_divisao2
-    console.log(`resultado: ${dividir}`)
-}
-
-do {
-    menu()
-
-    let operacao = Number(readline.question("\nDigite a operacao: "))
-
-    switch (operacao) {
-        case 1:
-            somar()
-            break
-
-        case 2:
-            subtrair()
-            break
-
-        case 3:
-            multiplicação()
-            break
-
-        case 4:
-            dividir()
-            break
-
-        default:
-            console.log("Opcao invalida!")
-            continue
+            escolha uma operacao:
+            
+            1- somar
+            2- subtrair
+            3- multiplicar
+            4- dividir                    `)
     }
 
-    encerrar = Number(readline.question("\n 0 - encerrar| 1 - continuar: ")
+    function somar(){
+        let num_soma1 = Number(readline.question("digite um numero: "))
+        let num_soma2 = Number(readline.question("digite outro numero que deseja somar: "))
+        let resultado = num_soma1 + num_soma2
+        console.log(`resultado: ${resultado}`)
+    }
 
-    )
+    function subtrair(){
+        let num_subtracao1 = Number(readline.question("digite um numero: "))
+        let num_subtracao2 = Number(readline.question("digite outro numero que deseja subtrair: "))
+        let resultado = num_subtracao1 - num_subtracao2
+        console.log(`resultado: ${resultado}`)
+    }
 
-} while (encerrar !== 0)
+    function multiplicação(){
+        let num_multiplicacao1 = Number(readline.question("digite um numero: "))
+        let num_multiplicacao2 = Number(readline.question("digite outro numero que deseja multiplicar: "))
+        let resultado = num_multiplicacao1 * num_multiplicacao2
+        console.log(`resultado: ${resultado}`)
+    }
+
+    function dividir(){
+        let num_divisao1 = Number(readline.question("digite um numero: "))
+        let num_divisao2 = Number(readline.question("digite outro numero que deseja dividir: "))
+        let dividir = num_divisao1 / num_divisao2
+        console.log(`resultado: ${dividir}`)
+    }
+
+    do {
+        menu()
+
+        let operacao = Number(readline.question("\nDigite a operacao: "))
+
+        switch (operacao) {
+            case 1:
+                somar()
+                break
+
+            case 2:
+                subtrair()
+                break
+
+            case 3:
+                multiplicação()
+                break
+
+            case 4:
+                dividir()
+                break
+
+            default:
+                console.log("Opcao invalida!")
+                continue
+        }
+
+        encerrar = Number(readline.question("\n 0 - encerrar| 1 - continuar: ")
+
+        )
+
+    } while (encerrar !== 0)
 
 console.log("_______________________________");
